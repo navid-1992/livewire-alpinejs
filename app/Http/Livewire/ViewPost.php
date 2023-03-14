@@ -11,7 +11,7 @@ class ViewPost extends Component
       'showPost'=>'render'
     ];
 
-    public function render($id)
+    public function render()
     {
         return view('livewire.view-post');
     }
